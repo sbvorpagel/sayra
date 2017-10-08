@@ -2,7 +2,7 @@
   <div class="Home">
     <h1>
         Faltam exatos 
-        {{ days ? days === 1 ? `${days*-1} dia,` : `${days*-1} dias,` : ''}}
+        {{ days ? days === 1 ? `${days*-1} dia,` : `${days} dias,` : ''}}
         {{ hours ? hours === 1 ? `${hours} hora,` : `${hours} horas,` : ''}}
         {{ minutes ? horas === 1 ? `${minutes} minuto,` : `${minutes} minutos,` : ''}}
         {{ seconds ? seconds === 1 ? `${seconds} segundo,` : `${seconds} segundos,` : ''}}
@@ -26,7 +26,7 @@ export default {
   },
   methods: {
     time() {
-      const day = new Date('2017', '00', '20', '20');
+      const day = new Date('2018', '00', '20', '20');
       const today = new Date();
       this.seconds = Math.floor((day - (today)) / 1000);
       this.minutes = Math.floor(this.seconds / 60);
