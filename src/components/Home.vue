@@ -4,8 +4,8 @@
         Faltam exatos 
         {{ days ? days === 1 ? `${days*-1} dia,` : `${days} dias,` : ''}}
         {{ hours ? hours === 1 ? `${hours} hora,` : `${hours} horas,` : ''}}
-        {{ minutes ? horas === 1 ? `${minutes} minuto,` : `${minutes} minutos,` : ''}}
-        {{ seconds ? seconds === 1 ? `${seconds} segundo,` : `${seconds} segundos,` : ''}}
+        {{ minutes ? horas === 1 ? `${minutes} minuto e ` : `${minutes} minutos e ` : ''}}
+        {{ seconds ? seconds === 1 ? `${seconds} segundo ` : `${seconds} segundos ` : ''}}
         para o começo de uma nova vida de Mayara e Samuel. Uma vida guiada por Deus, familia
         muito amor.
     </h1>
