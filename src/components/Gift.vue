@@ -40,7 +40,7 @@ export default {
       });
     },
     setModeGetName(index) {
-      const newGifts = this.gifts.map(g => Object.Assing(g, { stateGetPerson: false }));
+      const newGifts = this.gifts.map(g => Object.assign(g, { stateGetPerson: false }));
       newGifts[index].stateGetPerson = true;
       this.gifts = [].concat(newGifts);
     },
