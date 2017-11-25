@@ -40,11 +40,8 @@ export default {
       });
     },
     setModeGetName(index) {
-      const newGifts = this.gifts.map((g) => {
-        g['stateGetPerson'] = false;
-        return g;
-      });
-      newGifts[index]['stateGetPerson'] = true;
+      const newGifts = this.gifts.map(g => Object.Assing(g, { stateGetPerson: false }));
+      newGifts[index].stateGetPerson = true;
       this.gifts = [].concat(newGifts);
     },
     setName(index) {
@@ -58,7 +55,7 @@ export default {
           reff = g;
         }
       });
-      gift['person'] = this.person;
+      gift.personx = this.person;
       reff.ref.set(gift).then(this.$router.push('/gift'));
     },
   },
