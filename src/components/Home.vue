@@ -6,7 +6,7 @@
         {{ hours ? hours === 1 ? `${hours} hora,` : `${hours} horas,` : ''}}
         {{ minutes ? horas === 1 ? `${minutes} minuto e ` : `${minutes} minutos e ` : ''}}
         {{ seconds ? seconds === 1 ? `${seconds} segundo ` : `${seconds} segundos ` : ''}}
-        para o começo de uma nova vida de Mayara e Samuel. Uma vida guiada por Deus, familia
+        para o começo de uma nova vida de Mayara e Samuel. Uma vida guiada por Deus, familia e
         muito amor.
     </h1>
     <h2></h2>

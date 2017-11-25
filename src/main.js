@@ -17,6 +17,7 @@ new Vue({
   router,
   firebase: {
     confirm: firebase.database.ref('confirm'),
+    gifts: firebase.database.ref('gifts'),
   },
   template: '<App/>',
   components: { App },
