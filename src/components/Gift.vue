@@ -6,7 +6,8 @@
       coisas repetidas. Caso queiram saber preferências de modelos etc, ou ainda preferir mudar
       a sua escolha de presente, entrem em contato conosco.</p>
     <p>A entrega do presente, poderá ser feita tanto no dia e local do casamento, quanto no 
-      endereço dos noivos, Rua das Flores, 1170, Bairro Jardim Guarujá, CEP 85804-500.</p>
+      endereço dos noivos.</p>
+    <p>Endereço: Rua das Flores, 1170, Bairro Jardim Guarujá, Cascavel-PR, CEP 85804-500.</p>
     <ul id="gifts" class="ul-list">
       <li v-for="(gift, index) in this.gifts">
         <div>
