@@ -56,7 +56,7 @@ export default {
           reff = g;
         }
       });
-      gift.personx = this.person;
+      gift.person = this.person;
       reff.ref.set(gift).then(this.$router.push('/gift'));
     },
   },
