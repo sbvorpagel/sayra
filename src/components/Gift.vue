@@ -1,7 +1,7 @@
 <template>
   <div class="location">
     <h1>Presentes</h1>
-    <p>Ficariamos felizes caso queiram nos presentear, temos algumas sugestões logo abaixo. 
+    <p>Ficaríamos muito felizes em sermos presenteados. Caso tenham dúvidas sobre a escolha do presente, temos algumas sugestões logo abaixo.
       Para facilitar, adicionamos uma opção de colocar o seu nome no presente, assim, evitamos 
       coisas repetidas. Caso queiram saber preferências de modelos etc, ou ainda preferir mudar
       a sua escolha de presente, entrem em contato conosco.</p>
